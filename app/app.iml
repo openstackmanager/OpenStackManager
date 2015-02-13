@@ -83,9 +83,54 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-blobstore-1.8.1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="rocoto-6.2" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.usocket-jna-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.pageant-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="openstack-neutron-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-compute-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="logback-classic-1.0.13" level="project" />
+    <orderEntry type="library" exported="" name="guice-3.0" level="project" />
+    <orderEntry type="library" exported="" name="bcprov-ext-jdk15on-1.49" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.core-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="bcpkix-jdk15on-1.49" level="project" />
+    <orderEntry type="library" exported="" name="openstack-nova-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="openstack-cinder-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-android-1.7.7" level="project" />
+    <orderEntry type="library" exported="" name="jna-platform-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="sshj-0.8.1" level="project" />
+    <orderEntry type="library" exported="" name="jsr250-api-1.0" level="project" />
+    <orderEntry type="library" exported="" name="openstack-glance-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-okhttp-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="okhttp-1.6.0" level="project" />
+    <orderEntry type="library" exported="" name="openstack4j-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-slf4j-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.sshagent-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="openstack-marconi-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="logback-core-1.0.13" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.sshj-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="openstack-trove-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.7" level="project" />
+    <orderEntry type="library" exported="" name="guice-assistedinject-3.0" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-scriptbuilder-1.8.1" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-sshj-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="guava-17.0" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-bouncycastle-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.2" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.usocket-nc-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="jclouds-core-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="javax.inject-1" level="project" />
+    <orderEntry type="library" exported="" name="jsch.agentproxy.connector-factory-0.0.7" level="project" />
+    <orderEntry type="library" exported="" name="jna-4.0.0" level="project" />
+    <orderEntry type="library" exported="" name="openstack-swift-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="jsr311-api-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="openstack-keystone-1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.25" level="project" />
   </component>
 </module>
 

@@ -1,17 +1,41 @@
 package com.project.openstackmanager;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
+import com.google.common.collect.ImmutableSet;
+import com.google.inject.Module;
+
+import org.jclouds.ContextBuilder;
+import org.jclouds.logging.slf4j.config.SLF4JLoggingModule;
+import org.jclouds.openstack.nova.v2_0.NovaApi;
+
+import java.util.Set;
+
+
 public class MainActivity extends ActionBarActivity {
-    //test
+    private NovaApi novaApi;
+    private Set<String> zones;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Iterable<Module> modules = ImmutableSet.<Module>of(new SLF4JLoggingModule());
+
+        String provider = "openstack-nova";
+        String identity = "admin:admin"; // tenantName:userName
+        String credential = "password";
+
+        novaApi = ContextBuilder.newBuilder(provider)
+                .endpoint("http://100.10.10.110/horizon")
+                .credentials(identity, credential)
+                .modules(modules)
+                .buildApi(NovaApi.class);
+        zones = novaApi.getConfiguredZones();
     }
 
    public class Test{}
